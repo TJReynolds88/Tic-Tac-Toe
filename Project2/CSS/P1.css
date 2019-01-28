@@ -1,0 +1,139 @@
+body{
+	background-color: black;
+	color:darkgrey;
+	font-family:monospace,sans-serif;
+	user-select: none;
+	
+	
+}
+
+h1{
+	text-align: center;
+	color: white;
+	border-bottom: solid 5px blue;
+	border-top: solid 5px red;
+	width: 400px;
+	background: dimgrey;
+	
+}
+
+.clear{
+	clear: both;
+	
+}
+
+#container{
+	width: 400px;
+	overflow: auto;
+	text-align: center;
+	margin: 50px auto;
+	background-color: darkgrey;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	
+	
+	
+	
+}
+
+#Xscore{
+	background: red;
+	height: 75px;
+	width: 75px;
+	position: absolute;
+	top: 62px;
+	color:white;
+	
+		
+}
+
+#Yscore{
+	background: blue;
+	height: 75px;
+	width: 75px;
+	position: absolute;
+	top: 62px;
+	right: 440px;
+	color: white;
+	
+}
+
+.Stitle{
+	position:inherit;
+	bottom: 35px;
+	left:7px;
+	
+}
+#board li{
+	float:left;
+	width: 80px;
+	height: 80px;
+	font-size: 55px;
+	background-color: dimgray;
+	color: white;
+	margin: 14px;
+	text-align: center;
+	list-style: none;
+	border-radius: 5px;
+
+}
+
+#board li:hover {
+	cursor: pointer;
+	background: black;	
+}
+
+button.reset{
+	background-color: dimgray;
+	color: white;
+	border:0;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	width: 70%;
+	font-size: 24px;
+	border: solid 2px black;
+	
+	
+}
+
+button.reset:hover{
+	background-color: firebrick;
+	cursor: pointer;
+	
+}
+
+.o{
+	color: red !important;
+	
+}
+
+.x{
+	color: blue !important;
+	
+}
+
+footer{
+	display: block;
+	padding-top: 20px;
+	text-align: center;
+	
+}
+
+.highlight{
+	background: yellow;
+	height: 75px;
+	width: 75px;
+	position: absolute;
+	top: 62px;
+	color:white;
+	
+	
+}
+
+
+p{
+	font-size: 55px;
+	margin-top: -3px;
+	
+}
